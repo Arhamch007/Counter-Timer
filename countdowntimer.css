@@ -1,0 +1,34 @@
+body{
+background-image:url(/Images/adam-chang-IWenq-4JHqo-unsplash.jpg);
+background-size: cover;
+margin: 0;
+min-height: 100vh;
+background-position: center center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family:cursive
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin-top: -4rem;
+    font-weight: normal;
+}
+.big-text{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 2.5rem;
+    font-weight: bold;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
